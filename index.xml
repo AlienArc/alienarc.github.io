@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alien Arc Technologies</title>
+    <link>https://alienarc.com/</link>
+    <description>Recent content on Alien Arc Technologies</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://alienarc.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Alien Arc</title>
+      <link>https://alienarc.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://alienarc.com/about/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Alien Arc Technologies, LLC&lt;/strong&gt; is a modern applications company specializing in &lt;strong&gt;Mobile, Web, Desktop, and IoT solutions&lt;/strong&gt; built primarily on the &lt;strong&gt;.NET stack&lt;/strong&gt;. Founded in 2014, Alien Arc partners with organizations across a wide range of industries to design, modernize, and deliver reliable software solutions, with a strong emphasis on &lt;strong&gt;cross-platform development using .NET MAUI and Blazor&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Alien Arc delivers high-quality user experiences across mobile, web, and desktop platforms by leveraging modern architectures and cloud services to automate processes, accelerate delivery, and ensure long-term maintainability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact Us</title>
+      <link>https://alienarc.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://alienarc.com/contact/</guid>
+      <description>&lt;style&gt;&#xA;&lt;/style&gt;&#xA;&lt;h3 id=&#34;lets-build-something-great&#34;&gt;&#xD;&#xA;  Let’s Build Something Great&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#lets-build-something-great&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;Whether you’re looking to build a new application, modernize an existing system, or get expert guidance on modern .NET technologies, &lt;strong&gt;Alien Arc&lt;/strong&gt; is here to help. We&amp;rsquo;ll partner with you to deliver reliable, high-quality solutions wherever you need them.&lt;/p&gt;&#xA;&lt;p&gt;Our team brings deep real-world experience designing and delivering production systems, as active leaders in the developer community we have been regularly recognized by our peers for our skills with awards like the &lt;strong&gt;Microsoft Most Valuable Professional&lt;/strong&gt;. We pride ourselves on practical solutions, clear communication, and software that supports your business today and into the future.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Services</title>
+      <link>https://alienarc.com/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://alienarc.com/services/</guid>
+      <description>&lt;h2 id=&#34;custom-software-development&#34;&gt;&#xD;&#xA;  Custom Software Development&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#custom-software-development&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Alien Arc Technologies designs and delivers custom software solutions tailored to the unique needs of each business. We work closely with our clients to understand their workflows, constraints, and goals, then build software that fits—rather than forcing the business to adapt to off-the-shelf tools.&lt;/p&gt;&#xA;&lt;p&gt;Our team specializes in modern .NET-based applications across web, desktop, and embedded environments. Whether building a new system from the ground up or modernizing an existing solution, we focus on clean architecture, maintainability, and long-term value so our clients can confidently evolve their software as their business grows.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
