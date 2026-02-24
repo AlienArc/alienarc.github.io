@@ -177,19 +177,23 @@ Our team brings deep real-world experience designing and delivering production s
   <label for="email">Email:</label><input type="email" id="email" name="email" placeholder="Your Email" required>
   <label for="phone">Phone:</label><input type="tel" id="phone" name="phone" placeholder="Your Phone" required>
   <label for="details">Request:</label><textarea id="details" name="details" placeholder="Your Message" maxlength="2000" required></textarea>
+  <label for="verify">Type the word human:</label><input type="text" id="verify" name="verify" placeholder="Let us know you are real"></textarea>
   <button type="submit">Submit</button>
 </form>
 <script>
-  const contactFormEndpoint = 'https://aa-remoteservices-e8fccfg5h8aee2hy.centralus-01.azurewebsites.net/api/ContactFormSubmission';
+  const ep = 'aHR0cHM6Ly9hYS1yZW1vdGVzZXJ2aWNlcy1lOGZjY2ZnNWhhZWUyaHkuY2VudHJhbHVzLTAxLmF6dXJld2Vic2l0ZXMubmV0L2FwaS9Db250YWN0Rm9ybVN1Ym1pc3Npb24='; 
 
   document.getElementById('contactForm').addEventListener('submit', async function(event) {
     event.preventDefault();
+
+    const contactFormEndpoint = atob(ep); // Decode the endpoint
 
     // Ensure all fields are filled
     const name = document.getElementById('name').value.trim();
     const email = document.getElementById('email').value.trim();
     const phone = document.getElementById('phone').value.trim();
     const details = document.getElementById('details').value.trim();
+    const verify = document.getElementById('verify').value.trim();
 
     if (!name || !email || !phone || !details) {
       alert('Please fill all fields before submitting.');
@@ -201,6 +205,7 @@ Our team brings deep real-world experience designing and delivering production s
     formData.append('email', email);
     formData.append('phone', phone);
     formData.append('details', details);
+    formData.append('verify', verify);
 
     try {
       const response = await fetch(contactFormEndpoint, {
